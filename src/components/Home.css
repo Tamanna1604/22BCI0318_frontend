@@ -1,0 +1,133 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  /* Content Layout */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  /* Left Section (75%) */
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  
+  /* Table Headers */
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px; /* Reduced font size by 50% */
+    font-weight: bold;
+    color: #333;
+    padding: 5px 0;
+    gap: 5%; /* Makes the sections 10% closer */
+  }
+  
+  /* Ensure each column has equal width */
+  .column {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Image spaces below headers */
+  .table-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  /* Small empty spaces for images */
+  .image-space {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    justify-content: right;
+  }
+  .image-space2 {
+    width: 120px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+  }
+  
+  /* Right Section (25%) */
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Makes sure everything inside starts at the top */
+    width: 25%;
+    position: relative; /* Prevents overlapping */
+  }
+  
+  
+  /* Filter Button */
+  .filter-container {
+    position: relative;
+  }
+  
+  .filter-btn {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .filter-btn:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    border: 1px solid gray;
+    list-style: none;
+    padding: 5px 0;
+    width: 150px;
+    z-index: 10;
+  }
+  
+  .dropdown li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Share Button */
+  .share-btn {
+    background-color: white;
+    border: 1px solid gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Trademarks Found Text */
+  .results-text {
+    font-size: 16px;
+    color: #666;
+    margin: 15px 20px;
+  }
+  

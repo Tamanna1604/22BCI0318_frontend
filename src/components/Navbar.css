@@ -1,0 +1,68 @@
+/* Navbar container */
+/* Navbar container - increased height by 20% */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px 20px; /* Increased padding to make it taller */
+    border-bottom: 2px solid #ddd;
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 80px; /* Adjusted height */
+  }
+  
+  
+  /* Left Side: Logo */
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 120px; /* Adjust size as needed */
+  }
+  
+  /* Centering the search bar */
+  .search-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    width: 50%; /* Make it large */
+    gap: 10px;
+  }
+  
+  /* Search input */
+  .search-input {
+    width: 100%;
+    padding: 12px 16px; /* Increased padding for a larger input */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Clear button */
+  .clear-btn {
+    cursor: pointer;
+    font-size: 18px;
+    color: #999;
+  }
+  
+  /* Search button (blue) */
+  .search-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
